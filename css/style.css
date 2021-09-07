@@ -1,0 +1,210 @@
+/* here is comments */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-size: 14px;
+	font-family: sans-serif;
+	font-family: 'Dancing Script', cursive;
+	line-height: 24px;
+	height: 1500px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: monospace;   
+	font-family: 'Lobster Two', cursive;
+
+    font-family: 'Poppins', sans-serif;
+}
+a, a hover{
+	text-decoration: none;
+}
+.green{
+	width: 800px;
+	height: 400px;
+	background: green;
+	position: relative;
+	margin: 30px;
+}
+.red{
+	width: 200px;
+	height: 200px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	top: 23%;
+	left: 30%;
+}
+.red h3{
+	text-align: center;
+	margin-top: 205px;
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.blue{
+	width: 150px;
+	height: 150px;
+	background: blue;
+	border-radius: 100%;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	margin: 5px 10px;
+}
+.black{
+	width: 150px;
+	height: 150px;
+	background: black;
+	border-radius: 100%;
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	margin: 5px 10px;
+}
+.orange{
+	width: 150px;
+	height: 150px;
+	background: orange;
+	border-radius: 100%;
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+	margin: 5px 10px;
+}
+.pink{
+	width: 150px;
+	height: 150px;
+	background: pink;
+	border-radius: 100%;
+	position: absolute;
+	bottom: 0%;
+	right: 0%;
+	margin: 5px 10px;
+
+}
+
+.gray{
+	width: 180px;
+	height: 180px;
+	background: gray;
+	border-radius: 100%;
+	position: absolute;
+	left: 0%;
+	z-index: 0;
+
+}
+.white{
+	width: 180px;
+	height: 180px;
+	background: white;
+	border-radius: 100%;
+	position: absolute;
+	left: 5%;
+	z-index: 8;
+}
+.yellow{
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	border-radius: 100%;
+	position: fixed;
+	top: 10%;
+	left: 58%;
+}
+
+.fb{
+	width: 150px;
+	top: 40%;
+	right: -105px;
+	position: fixed;
+	transition: 1s;
+}
+.fb:hover{
+	right: -3px;
+	cursor: pointer;
+}
+
+.social-media{
+	margin: 30px;
+	width: 100%;
+	height: 30px 0px;
+	padding: 30px 0px;
+	background: #bbb;
+}
+.social-icons{
+	text-align: center;
+	width: 100%;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+		/*       Social Media Icon CSS with Hover and Focus	 */
+
+.social-icons li a .fa{
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 100%;
+	font-size: 24px;
+	transition: 1s;
+	margin: 0px 15px;
+}
+.social-icons li a .fa-facebook{
+	background: #1094F4;
+	color: white;
+}
+.social-icons li a .fa-twitter{
+	background: #E8F5FD;	
+	color: #1D9BF0;
+}
+.social-icons li a .fa-linkedin{
+	background: #0A66C2;
+	color: white;
+}
+.social-icons li a .fa-instagram{
+	background: #DA2778;
+	color: white;
+}
+.social-icons li a .fa-youtube{
+	background: #FF0000;
+	color: white;
+}
+.social-icons li a:hover .fa-facebook, .social-icons li a:focus .fa-facebook{
+	background: white;
+	color: #1094F4;
+}
+.social-icons li a:hover .fa-twitter, .social-icons li a:focus .fa-twitter{
+	background: #1D9BF0;
+	color: #E8F5FD;
+}
+.social-icons li a:hover .fa-linkedin, .social-icons li a:focus .fa-linkedin{
+	background: white;
+	color: #0A66C2;
+}
+.social-icons li a:hover .fa-instagram, .social-icons li a:focus .fa-instagram{
+	background: white;
+	color: #DA2778;
+}
+.social-icons li a:hover .fa-youtube, .social-icons li a:focus .fa-youtube{
+	background: white;
+	color: #FF0000;
+}
+.paragraph{
+	margin: 30px;
+}
+.paragraph h2{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 28px;
+	color: green;
+	padding: 8px;
+}
+.paragraph p{
+	text-align: justify;
+	font-size: 22px;
+	color: blueviolet;
+}
